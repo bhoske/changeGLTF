@@ -1,0 +1,265 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.2.25
+3 info using node@v0.10.10
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\package.json
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\Documents and Settings\\psb04221\\My Documents\\GitHub\\glTF-webgl-viewer',
+7 verbose install   [ 'montage',
+7 verbose install     'digit',
+7 verbose install     'matte',
+7 verbose install     'native',
+7 verbose install     'q',
+7 verbose install     'collections',
+7 verbose install     'mjs-volume',
+7 verbose install     'express' ] ]
+8 verbose from cache C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\package.json
+9 info preinstall viewer@0.1.0
+10 verbose read json C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\node_modules\digit\package.json
+11 verbose read json C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\node_modules\matte\package.json
+12 verbose read json C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\node_modules\mjs-volume\package.json
+13 verbose read json C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\node_modules\montage\package.json
+14 verbose from cache C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\package.json
+15 verbose readDependencies using package.json deps
+16 verbose from cache C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\node_modules\digit\package.json
+17 verbose from cache C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\node_modules\matte\package.json
+18 verbose from cache C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\node_modules\mjs-volume\package.json
+19 verbose from cache C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer\node_modules\montage\package.json
+20 verbose already installed skipping montage@~0.14.0 C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer
+21 verbose cache add [ 'digit@0.5.0', null ]
+22 verbose cache add name=undefined spec="digit@0.5.0" args=["digit@0.5.0",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'digit@0.5.0',
+23 verbose parsed url   path: 'digit@0.5.0',
+23 verbose parsed url   href: 'digit@0.5.0' }
+24 verbose cache add name="digit" spec="0.5.0" args=["digit","0.5.0"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '0.5.0',
+25 verbose parsed url   path: '0.5.0',
+25 verbose parsed url   href: '0.5.0' }
+26 verbose addNamed [ 'digit', '0.5.0' ]
+27 verbose addNamed [ '0.5.0', '0.5.0' ]
+28 verbose already installed skipping matte@~0.2.0 C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer
+29 verbose cache add [ 'native@~0.2.0', null ]
+30 verbose cache add name=undefined spec="native@~0.2.0" args=["native@~0.2.0",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'native@~0.2.0',
+31 verbose parsed url   path: 'native@~0.2.0',
+31 verbose parsed url   href: 'native@~0.2.0' }
+32 verbose cache add name="native" spec="~0.2.0" args=["native","~0.2.0"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '~0.2.0',
+33 verbose parsed url   path: '~0.2.0',
+33 verbose parsed url   href: '~0.2.0' }
+34 verbose addNamed [ 'native', '~0.2.0' ]
+35 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+36 verbose cache add [ 'q@0.9.6', null ]
+37 verbose cache add name=undefined spec="q@0.9.6" args=["q@0.9.6",null]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'q@0.9.6',
+38 verbose parsed url   path: 'q@0.9.6',
+38 verbose parsed url   href: 'q@0.9.6' }
+39 verbose cache add name="q" spec="0.9.6" args=["q","0.9.6"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '0.9.6',
+40 verbose parsed url   path: '0.9.6',
+40 verbose parsed url   href: '0.9.6' }
+41 verbose addNamed [ 'q', '0.9.6' ]
+42 verbose addNamed [ '0.9.6', '0.9.6' ]
+43 verbose cache add [ 'collections@~0.2.1', null ]
+44 verbose cache add name=undefined spec="collections@~0.2.1" args=["collections@~0.2.1",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'collections@~0.2.1',
+45 verbose parsed url   path: 'collections@~0.2.1',
+45 verbose parsed url   href: 'collections@~0.2.1' }
+46 verbose cache add name="collections" spec="~0.2.1" args=["collections","~0.2.1"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '~0.2.1',
+47 verbose parsed url   path: '~0.2.1',
+47 verbose parsed url   href: '~0.2.1' }
+48 verbose addNamed [ 'collections', '~0.2.1' ]
+49 verbose addNamed [ null, '>=0.2.1- <0.3.0-' ]
+50 verbose cache add [ 'mjs-volume@git://github.com/fabrobinet/mjs-volume.git',
+50 verbose cache add   null ]
+51 verbose cache add name=undefined spec="mjs-volume@git://github.com/fabrobinet/mjs-volume.git" args=["mjs-volume@git://github.com/fabrobinet/mjs-volume.git",null]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'mjs-volume@git://github.com/fabrobinet/mjs-volume.git',
+52 verbose parsed url   path: 'mjs-volume@git://github.com/fabrobinet/mjs-volume.git',
+52 verbose parsed url   href: 'mjs-volume@git://github.com/fabrobinet/mjs-volume.git' }
+53 verbose cache add name="mjs-volume" spec="git://github.com/fabrobinet/mjs-volume.git" args=["mjs-volume","git://github.com/fabrobinet/mjs-volume.git"]
+54 verbose parsed url { protocol: 'git:',
+54 verbose parsed url   slashes: true,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: 'github.com',
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: 'github.com',
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '/fabrobinet/mjs-volume.git',
+54 verbose parsed url   path: '/fabrobinet/mjs-volume.git',
+54 verbose parsed url   href: 'git://github.com/fabrobinet/mjs-volume.git' }
+55 verbose cache add [ 'express@3.4.0', null ]
+56 verbose cache add name=undefined spec="express@3.4.0" args=["express@3.4.0",null]
+57 verbose parsed url { protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: 'express@3.4.0',
+57 verbose parsed url   path: 'express@3.4.0',
+57 verbose parsed url   href: 'express@3.4.0' }
+58 verbose cache add name="express" spec="3.4.0" args=["express","3.4.0"]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: '3.4.0',
+59 verbose parsed url   path: '3.4.0',
+59 verbose parsed url   href: '3.4.0' }
+60 verbose addNamed [ 'express', '3.4.0' ]
+61 verbose addNamed [ '3.4.0', '3.4.0' ]
+62 silly lockFile fb37f7ce-digit-0-5-0 digit@0.5.0
+63 verbose lock digit@0.5.0 C:\Documents and Settings\psb04221\Application Data\npm-cache\fb37f7ce-digit-0-5-0.lock
+64 silly lockFile cc0d5426-native-0-2-0 native@~0.2.0
+65 verbose lock native@~0.2.0 C:\Documents and Settings\psb04221\Application Data\npm-cache\cc0d5426-native-0-2-0.lock
+66 silly lockFile 82d587b6-q-0-9-6 q@0.9.6
+67 verbose lock q@0.9.6 C:\Documents and Settings\psb04221\Application Data\npm-cache\82d587b6-q-0-9-6.lock
+68 silly lockFile 5273fde8-collections-0-2-1 collections@~0.2.1
+69 verbose lock collections@~0.2.1 C:\Documents and Settings\psb04221\Application Data\npm-cache\5273fde8-collections-0-2-1.lock
+70 silly lockFile aca06202-ub-com-fabrobinet-mjs-volume-git git://github.com/fabrobinet/mjs-volume.git
+71 verbose lock git://github.com/fabrobinet/mjs-volume.git C:\Documents and Settings\psb04221\Application Data\npm-cache\aca06202-ub-com-fabrobinet-mjs-volume-git.lock
+72 silly lockFile 86194427-express-3-4-0 express@3.4.0
+73 verbose lock express@3.4.0 C:\Documents and Settings\psb04221\Application Data\npm-cache\86194427-express-3-4-0.lock
+74 silly addNameRange { name: 'native', range: '>=0.2.0- <0.3.0-', hasData: false }
+75 silly addNameRange { name: 'collections',
+75 silly addNameRange   range: '>=0.2.1- <0.3.0-',
+75 silly addNameRange   hasData: false }
+76 verbose addRemoteGit [ 'git://github.com/fabrobinet/mjs-volume.git', 'master' ]
+77 verbose url raw digit/0.5.0
+78 verbose url resolving [ 'https://registry.npmjs.org/', './digit/0.5.0' ]
+79 verbose url resolved https://registry.npmjs.org/digit/0.5.0
+80 info trying registry request attempt 1 at 17:17:58
+81 verbose etag "CXP42VALB57KGJIHWEY4YD318"
+82 http GET https://registry.npmjs.org/digit/0.5.0
+83 verbose url raw native
+84 verbose url resolving [ 'https://registry.npmjs.org/', './native' ]
+85 verbose url resolved https://registry.npmjs.org/native
+86 info trying registry request attempt 1 at 17:17:58
+87 verbose etag "7M8R6N6BSPMOAUT9UINZUDPLU"
+88 http GET https://registry.npmjs.org/native
+89 verbose url raw q/0.9.6
+90 verbose url resolving [ 'https://registry.npmjs.org/', './q/0.9.6' ]
+91 verbose url resolved https://registry.npmjs.org/q/0.9.6
+92 info trying registry request attempt 1 at 17:17:58
+93 verbose etag "ADH64G24E06081JXPRJY7929K"
+94 http GET https://registry.npmjs.org/q/0.9.6
+95 verbose url raw collections
+96 verbose url resolving [ 'https://registry.npmjs.org/', './collections' ]
+97 verbose url resolved https://registry.npmjs.org/collections
+98 info trying registry request attempt 1 at 17:17:58
+99 verbose etag "E0Y9Y6LE9K7RG5UENO2MDX48F"
+100 http GET https://registry.npmjs.org/collections
+101 verbose url raw express/3.4.0
+102 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.4.0' ]
+103 verbose url resolved https://registry.npmjs.org/express/3.4.0
+104 info trying registry request attempt 1 at 17:17:58
+105 verbose etag "2KMAAZKD1CGQU9XPOX38W3UIN"
+106 http GET https://registry.npmjs.org/express/3.4.0
+107 silly lockFile aca06202-ub-com-fabrobinet-mjs-volume-git git://github.com/fabrobinet/mjs-volume.git
+108 silly lockFile aca06202-ub-com-fabrobinet-mjs-volume-git git://github.com/fabrobinet/mjs-volume.git
+109 error not found: git
+110 error Failed using git.
+110 error This is most likely not a problem with npm itself.
+110 error Please check if you have git installed and in your PATH.
+111 error System Windows_NT 5.2.3790
+112 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+113 error cwd C:\Documents and Settings\psb04221\My Documents\GitHub\glTF-webgl-viewer
+114 error node -v v0.10.10
+115 error npm -v 1.2.25
+116 error code ENOGIT
+117 verbose exit [ 1, true ]

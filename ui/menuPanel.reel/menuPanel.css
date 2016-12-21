@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* This is the selector for the main CollapsiblePanel container. For our
+ * default style, the CollapsiblePanel is responsible for drawing the borders
+ * around the widget.
+ *
+ * If you want to constrain the width of the CollapsiblePanel widget, set a width on
+ * the CollapsiblePanel container. By default, our CollapsiblePanel expands horizontally to fill
+ * up available space.
+ *
+ * The name of the class ("CollapsiblePanel") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style the
+ * CollapsiblePanel container.
+ */
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+	font-size:13px;
+	/* border-left: solid 1px #CCC;
+	border-right: solid 1px #999;
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #CCC; */
+}
+
+/* This is the selector for the CollapsiblePanelTab. This container houses
+ * the title for the panel. This is also the container that the user clicks
+ * on to open or close the panel.
+ *
+ * The name of the class ("CollapsiblePanelTab") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * CollapsiblePanel panel tab container.
+ */
+.CollapsiblePanelTab {
+	/* font: bold 0.7em sans-serif; */
+	/* background-color: #DDD; */
+	border-bottom: solid 1px orange;
+	border-top: solid 1px orange;
+	margin: 0px;
+	color:white;
+	font-weight:bold;
+	padding: 2px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	
+}
+
+/* This is the selector for a CollapsiblePanel's Content area. It's important to note that
+ * you should never put any padding on the content area element if you plan to
+ * use the CollapsiblePanel's open/close animations. Placing a non-zero padding on the content
+ * element can cause the CollapsiblePanel to abruptly grow in height while the panels animate.
+ *
+ * The name of the class ("CollapsiblePanelContent") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style a
+ * CollapsiblePanel content container.
+ */
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* An anchor tag can be used inside of a CollapsiblePanelTab so that the
+ * keyboard focus ring appears *inside* the tab instead of around the tab.
+ * This is an example of how to make the text within the anchor tag look
+ * like non-anchor (normal) text.
+ */
+.CollapsiblePanelTab a {
+	color: black;
+	text-decoration: none;
+}
+
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open. The class "CollapsiblePanelOpen" is programatically added and removed
+ * from panels as the user clicks on the tabs within the CollapsiblePanel.
+ */
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+	background: hsla(26, 64%, 37%, 0.6) url(./../../images/arrow_up_orange.png) no-repeat 241px;
+}
+
+/* This is an example of how to change the appearance of the panel tab when the
+ * CollapsiblePanel is closed. The "CollapsiblePanelClosed" class is programatically added and removed
+ * whenever the CollapsiblePanel is closed.
+ */
+
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+ /* background-color: #EFEFEF */
+	background: hsla(26, 64%, 37%, 0.6) url(./../../images/arrow_down_orange.png) no-repeat 241px;
+	color:white;
+	font-weight:bold;
+}
+
+/* This is an example of how to change the appearance of the panel tab as the
+ * mouse hovers over it. The class "CollapsiblePanelTabHover" is programatically added
+ * and removed from panel tab containers as the mouse enters and exits the tab container.
+ */
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+	/* background-color: #CCC; */
+}
+
+/* This is an example of how to change the appearance of all the panel tabs when the
+ * CollapsiblePanel has focus. The "CollapsiblePanelFocused" class is programatically added and removed
+ * whenever the CollapsiblePanel gains or loses keyboard focus.
+ */
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+	background-color: hsla(26, 64%, 37%, 0.8);
+	color:white;
+	font-weight:bold;
+	outline:none;
+}
+.colorPicker {
+    font-size: 0;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+	padding-left :10px;
+	padding-top:20px;
+
+}
+.selectedInfo {
+    position: absolute;
+    right: 15px;
+    display: inline-block;
+    margin: 0;
+}
+.settingPanel {
+    display: block;
+    position: absolute;
+    right: 9px;
+	/*top: 50%;
+	background-color: hsl(29, 55%, 56%);
+    border: 2px solid hsla(0, 0%, 0%, 0.33);
+    text-shadow: 1px 2px 0 hsla(0, 100%, 100%, 0.13);*/
+    background-size: cover;
+    border-radius: 13px;
+   /* box-shadow: inset 2px 4px 0px hsla(0, 100%, 100%, 0.2), 6px 12px 0px hsla(0, 0%, 0%, 0.15);
+	 background-image: url('./../../images/grey-texture/Grey Lines'); 
+	background: -webkit-linear-gradient(top, #a8a8a8, #d3d3d3);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a8a8a8), to(#d3d3d3));
+	background: -webkit-linear-gradient(top, #a8a8a8, #d3d3d3);
+	background: -moz-linear-gradient(top, #a8a8a8, #d3d3d3);
+	background: -ms-linear-gradient(top, #a8a8a8, #d3d3d3);
+	background: -o-linear-gradient(top, #a8a8a8, #d3d3d3);
+	background-image: url('./../../images/wood_bkg.jpg');*/
+	background-color: hsl(29, 55%, 56%);
+	color: black;
+	margin-top:-29px;
+}
+
+#settingMenuDiv{
+	background-image: url('./../../images/wood_bkg.jpg');
+	border-radius:13px;
+}

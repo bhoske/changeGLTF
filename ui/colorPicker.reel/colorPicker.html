@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<script>
+		var colorPickerFlag=0;
+		</script>
+		<link rel="stylesheet" type="text/css" href="colorPicker.css">
+		<script type="text/montage-serialization">
+		{
+			"owner": {
+				"prototype": "ui/colorPicker.reel",
+				"properties": {
+					"element": {"#": "colorPicker"}
+				}
+			},
+			"colorOk": {
+				"prototype": "digit/ui/button.reel",
+				"properties": {
+					"element": {"#": "colorOk"}
+				},
+				"listeners": [
+					{
+						"type": "action",
+						"listener": {"@": "owner"}
+					}
+				]
+			},
+			"colorCancel": {
+				"prototype": "digit/ui/button.reel",
+				"properties": {
+					"element": {"#": "colorCancel"}
+				}
+				,
+				"listeners": [
+					{
+						"type": "action",
+						"listener": {"@": "owner"}
+					}
+				]
+			}
+		}
+		</script>
+	</head>
+	<body>
+		<div id="CustomDiv" style="position:absolute;right: 279px;" data-montage-id="colorPicker">
+			<section style="">
+				<div id='htmlcolorPalette' style="display:none;">
+					<div class="test" style="">
+						 <div id="gradientBox" style="margin-left: -7px;cursor:crosshair;position:absolute;top:8px;left:15px;width:256px;height:256px;">
+							<img id="gradientImg" style="display:block;width:256px;height:256px;" src="./../../images/color_picker_gradient.png" ></img>
+							<img id="circle" style="position:absolute;height:11px;width:11px;" src="./../../images/color_picker_circle.gif" ></img>
+						</div>
+						<div id="hueBarDiv" style="position:absolute;left:268px;width:35px;height:256px;top:8px;">
+							<img style="position:absolute;height:256px;width:19px;left:8px;" src="./../../images/color_picker_bar.png" ></img>
+							<img id="arrows" style="position:absolute;height:9px;width:35px;left:0px;" src="./../../images/color_picker_arrows.gif" ></img>
+							<br />
+						</div>
+						<div style="position:absolute;left:307px;width:159px;height:346px;top:8px;">
+							<div style="position:absolute;border: 1px solid black;height:50px;width:160px;top:0px;left:0px;">
+							<div id="quickColor" style="position:absolute;height:50px;width:87px;top:0px;left:0px;"></div>
+							<div id="staticColor" style="position:absolute;height:50px;width:83px;top:0px;left:77px;"></div>
+							</div>
+							<br />
+							<table width="100%" style="position:absolute;top:55px;">
+								<tr>
+								  <td>Hex: </td>
+								  <td>
+									<input style="" size="8" type="text" id="hexBox" onchange="hexBoxChanged();" />
+								  </td>
+								</tr>
+								<tr>
+								  <td>Red: </td>
+								  <td>
+									<input style="" size="8" type="text" id="redBox" onchange="redBoxChanged();" />
+								  </td>
+								</tr>
+								<tr>
+								  <td>Green: </td>
+								  <td>
+									<input style="" size="8" type="text" id="greenBox" onchange="greenBoxChanged();" />
+								  </td>
+								</tr>
+								<tr>
+								  <td>Blue: </td>
+								  <td>
+									<input style="" size="8" type="text" id="blueBox" onchange="blueBoxChanged();" />
+								  </td>
+								</tr>
+								<tr>
+								  <td>Hue: </td>
+								  <td>
+									<input style="" size="8" type="text" id="hueBox" onchange="hueBoxChanged();" />
+								  </td>
+								</tr>
+								<tr>
+								  <td>Saturation: </td>
+								  <td>
+									<input style="" size="8" type="text" id="saturationBox" onchange="saturationBoxChanged();" />
+								  </td>
+								</tr>
+								<tr >
+								  <td>Value: </td>
+								  <td>
+									<input style="" size="8" type="text" id="valueBox" onchange="valueBoxChanged();" />
+								  </td>
+								</tr>
+							</table>
+						<button data-montage-id="colorOk" style="position: relative;top: 255px;">Ok</button>
+						<button data-montage-id="colorCancel" style="position: relative;top: 255px;margin-left: 9px;">Cancel</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

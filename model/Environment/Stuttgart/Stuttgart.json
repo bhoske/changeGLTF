@@ -1,0 +1,519 @@
+{
+    "bufferViews": {
+        "bufferView_47": {
+            "buffer": "Stuttgart.bin",
+            "byteLength": 223740,
+            "byteOffset": 0,
+            "target": "ARRAY_BUFFER"
+        },
+        "bufferView_48": {
+            "buffer": "Stuttgart.bin",
+            "byteLength": 22080,
+            "byteOffset": 223740,
+            "target": "ELEMENT_ARRAY_BUFFER"
+        }
+    },
+    "buffers": {
+        "Stuttgart.bin": {
+            "byteLength": 245820,
+            "path": "Stuttgart.bin"
+        }
+    },
+    "images": {
+        "image_Stuttgart": {
+            "path": "./images/0_0_dom.jpg"
+        }
+    },
+    "materials": {
+        "material.0": {
+            "name": "lights1",
+            "technique": "textureTechniqueWithTransparency",
+            "techniques": {
+                "textureTechniqueWithTransparency": {
+                    "parameters": {
+                        "ambient": {
+                            "type": "FLOAT_VEC3",
+                            "value": [
+                                0.8,
+                                0.8,
+                                0.8
+                            ]
+                        },
+                        "diffuse": {
+                            "image": "image_Stuttgart",
+                            "magFilter": "LINEAR",
+                            "minFilter": "LINEAR",
+                            "type": "SAMPLER_2D",
+                            "wrapS": "REPEAT",
+                            "wrapT": "REPEAT"
+                        },
+                        "emission": {
+                            "type": "FLOAT_VEC3",
+                            "value": [
+                                0,
+                                0,
+                                0
+                            ]
+                        },
+                        "reflectivity": {
+                            "type": "FLOAT",
+                            "value": -1
+                        },
+                        "shininess": {
+                            "type": "FLOAT",
+                            "value": 1.06
+                        },
+                        "specular": {
+                            "type": "FLOAT_VEC3",
+                            "value": [
+                                0.992157,
+                                0.992157,
+                                0.992157
+                            ]
+                        },
+                        "transparency": {
+                            "type": "FLOAT",
+                            "value": 1.0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "meshes": {
+        "geom-Dome": {
+            "attributes": {
+                "attribute_41": {
+                    "bufferView": "bufferView_47",
+                    "byteOffset": 185760,
+                    "byteStride": 12,
+                    "componentType": "FLOAT",
+                    "componentsPerAttribute": 3,
+                    "count": 1055,
+                    "max": [
+                        934.322,
+                        934.323,
+                        1206.58
+                    ],
+                    "min": [
+                        -934.322,
+                        -934.322,
+                        -7.24792e-005
+                    ]
+                },
+                "attribute_43": {
+                    "bufferView": "bufferView_47",
+                    "byteOffset": 198420,
+                    "byteStride": 12,
+                    "componentType": "FLOAT",
+                    "componentsPerAttribute": 3,
+                    "count": 1055,
+                    "max": [
+                        1,
+                        1,
+                        0.878795
+                    ],
+                    "min": [
+                        -1,
+                        -1,
+                        -1
+                    ]
+                },
+                "attribute_45": {
+                    "bufferView": "bufferView_47",
+                    "byteOffset": 211080,
+                    "byteStride": 12,
+                    "componentType": "FLOAT",
+                    "componentsPerAttribute": 3,
+                    "count": 1055,
+                    "max": [
+                        0.999999,
+                        0.537358,
+                        0
+                    ],
+                    "min": [
+                        7.15256e-007,
+                        -0.000327945,
+                        0
+                    ]
+                }
+            },
+            "name": "Dome",
+            "primitives": [
+                {
+                    "indices": {
+                        "bufferView": "bufferView_48",
+                        "byteOffset": 10320,
+                        "count": 5880,
+                        "type": "UNSIGNED_SHORT"
+                    },
+                    "material": "material.0",
+                    "primitive": "TRIANGLES",
+                    "semantics": {
+                        "NORMAL": "attribute_43",
+                        "POSITION": "attribute_41",
+                        "TEXCOORD_0": "attribute_45"
+                    }
+                }
+            ]
+        },
+        "geom-Ground": {
+            "attributes": {
+                "attribute_18": {
+                    "bufferView": "bufferView_47",
+                    "byteOffset": 0,
+                    "byteStride": 12,
+                    "componentType": "FLOAT",
+                    "componentsPerAttribute": 3,
+                    "count": 5160,
+                    "max": [
+                        851.123,
+                        851.124,
+                        0
+                    ],
+                    "min": [
+                        -851.123,
+                        -851.122,
+                        0
+                    ]
+                },
+                "attribute_20": {
+                    "bufferView": "bufferView_47",
+                    "byteOffset": 61920,
+                    "byteStride": 12,
+                    "componentType": "FLOAT",
+                    "componentsPerAttribute": 3,
+                    "count": 5160,
+                    "max": [
+                        0,
+                        0,
+                        1
+                    ],
+                    "min": [
+                        0,
+                        0,
+                        1
+                    ]
+                },
+                "attribute_22": {
+                    "bufferView": "bufferView_47",
+                    "byteOffset": 123840,
+                    "byteStride": 12,
+                    "componentType": "FLOAT",
+                    "componentsPerAttribute": 3,
+                    "count": 5160,
+                    "max": [
+                        0.49975,
+                        0.906885,
+                        0.5
+                    ],
+                    "min": [
+                        0.000249758,
+                        0.56497,
+                        0.5
+                    ]
+                }
+            },
+            "name": "Ground",
+            "primitives": [
+                {
+                    "indices": {
+                        "bufferView": "bufferView_48",
+                        "byteOffset": 0,
+                        "count": 5160,
+                        "type": "UNSIGNED_SHORT"
+                    },
+                    "material": "material.0",
+                    "primitive": "TRIANGLES",
+                    "semantics": {
+                        "NORMAL": "attribute_20",
+                        "POSITION": "attribute_18",
+                        "TEXCOORD_0": "attribute_22"
+                    }
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node_0": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "EnvironmentAmbientLight"
+        },
+        "node_1": {
+            "children": [],
+            "matrix": [
+                0.001,
+                0,
+                0,
+                0,
+                0,
+                0.001,
+                0,
+                0,
+                0,
+                0,
+                0.001,
+                0,
+                0,
+                -1.00549,
+                -1.00548,
+                1
+            ],
+            "name": "EnvironmentAmbientLight"
+        },
+        "node_2": {
+            "children": [],
+            "matrix": [
+                0.01,
+                0,
+                0,
+                0,
+                0,
+                0.01,
+                0,
+                0,
+                0,
+                0,
+                0.01,
+                0,
+                0,
+                -1.00549,
+                -1.00548,
+                1
+            ],
+            "name": "HalfDome_apf"
+        },
+        "node_3": {
+            "children": [],
+            "matrix": [
+                -0.01,
+                8.74228e-010,
+                0,
+                0,
+                -8.74228e-010,
+                -0.01,
+                -1.19209e-009,
+                0,
+                0,
+                -1.19209e-009,
+                0.01,
+                0,
+                -1.8608e-015,
+                -1.00549,
+                -1.00548,
+                1
+            ],
+            "name": "Sepulveda_apf"
+        },
+        "node_4": {
+            "children": [
+                "node_5",
+                "node_6"
+            ],
+            "matrix": [
+                0.01,
+                0,
+                0,
+                0,
+                0,
+                0.01,
+                0,
+                0,
+                0,
+                0,
+                0.01,
+                0,
+                0,
+                -1.00549,
+                -1.00548,
+                1
+            ],
+            "name": "PuckHardEdge_apf"
+        },
+        "node_5": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                3.55271e-015,
+                0,
+                0,
+                -3.55271e-015,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "geom-Ground"
+            ],
+            "name": "Ground"
+        },
+        "node_6": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                3.55271e-015,
+                0,
+                0,
+                -3.55271e-015,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "meshes": [
+                "geom-Dome"
+            ],
+            "name": "Dome"
+        },
+        "root": {
+            "children": [
+                "node_0",
+                "node_1",
+                "node_2",
+                "node_3",
+                "node_4"
+            ],
+            "matrix": [
+                700,
+                0,
+                0,
+                0,
+                0,
+                700,
+                0,
+                0,
+                0,
+                0,
+                700,
+                0,
+                0,
+                -1.00549,
+                -1.00548,
+                1
+            ]
+        }
+    },
+    "profile": "WebGL 1.0",
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "node": "root"
+        }
+    },
+    "shaders": {
+        "textureTechniqueWithTransparencyFs": {
+            "path": "textureTechniqueWithTransparencyFs.glsl"
+        },
+        "textureTechniqueWithTransparencyVs": {
+            "path": "textureTechniqueWithTransparencyVs.glsl"
+        }
+    },
+    "techniques": {
+        "textureTechniqueWithTransparency": {
+            "parameters": {},
+            "pass": "defaultPass",
+            "passes": {
+                "defaultPass": {
+                    "program": {
+                        "FRAGMENT_SHADER": "textureTechniqueWithTransparencyFs",
+                        "VERTEX_SHADER": "textureTechniqueWithTransparencyVs",
+                        "attributes": [
+                            {
+                                "semantic": "NORMAL",
+                                "symbol": "a_normal",
+                                "type": "FLOAT_VEC3"
+                            },
+                            {
+                                "semantic": "TEXCOORD_0",
+                                "symbol": "a_texcoord0",
+                                "type": "FLOAT_VEC2"
+                            },
+                            {
+                                "semantic": "POSITION",
+                                "symbol": "a_position",
+                                "type": "FLOAT_VEC3"
+                            }
+                        ],
+                        "uniforms": [
+                            {
+                                "semantic": "WORLDVIEWINVERSETRANSPOSE",
+                                "symbol": "u_normalMatrix",
+                                "type": "FLOAT_MAT3"
+                            },
+                            {
+                                "parameter": "diffuse",
+                                "symbol": "u_diffuseTexture",
+                                "type": "SAMPLER_2D"
+                            },
+                            {
+                                "parameter": "reflectivity",
+                                "symbol": "u_reflectivity",
+                                "type": "FLOAT"
+                            },
+                            {
+                                "parameter": "transparency",
+                                "symbol": "u_transparency",
+                                "type": "FLOAT"
+                            },
+                            {
+                                "semantic": "WORLDVIEW",
+                                "symbol": "u_worldviewMatrix",
+                                "type": "FLOAT_MAT4"
+                            },
+                            {
+                                "semantic": "PROJECTION",
+                                "symbol": "u_projectionMatrix",
+                                "type": "FLOAT_MAT4"
+                            }
+                        ]
+                    },
+                    "states": {
+                        "blendEnable": true,
+                        "blendEquation": "FUNC_ADD",
+                        "blendFunc": {
+                            "dfactor": "ONE_MINUS_SRC_ALPHA",
+                            "sfactor": "SRC_ALPHA"
+                        },
+                        "depthMask": true,
+                        "depthTestEnable": true
+                    },
+                    "type": "program"
+                }
+            }
+        }
+    },
+    "version": "0.2"
+}
